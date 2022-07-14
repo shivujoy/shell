@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "this is weblogic calss"
-echo "we are shell scripting"
+echo "we are learning shell scripting"
