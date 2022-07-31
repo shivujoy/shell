@@ -2,7 +2,7 @@
 echo "enter the number:"
 read num1 num2
 sum=$(( $num1 + $num2 ))
-mult=$(( $num1 * $num2 ))
+multi=$(( $num1 * $num2 ))
 if [ $num1 -gt $num2 ]
 then
 	sub=$(( $num1 - $num2 ))
@@ -12,6 +12,6 @@ else
 	dev=$(( $num2 / $num1 ))
 fi
 echo "total sum = $sum"
-echo "multi = $mult"
+echo "multi = $multi"
 echo "sub = $sub"
 echo "divi = $dev"

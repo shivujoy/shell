@@ -1,8 +1,7 @@
 #!/bin/bash
-a=10
-while [ $a -gt 2 ]
+echo " a= "
+while [ $a -lt 9 ]
 do
-	echo $a
-	((a--))
+	echo "$a"
+	((a++))
 done
-echo "out of the loop"
